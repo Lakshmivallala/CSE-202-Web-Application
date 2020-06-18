@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+h1{
+    color:white;      
+    background:steelblue;  
+/*to get border around h1*/
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: blue;*/
+/*shortcut method for above*/	
+    border: 2px solid midnightblue;	
+/*fonts : font family;*/
+    /*font-family: arial;*/ /*this is normal way to do but in the next line i used google fonts and did as it has more options*/
+      font-family: 'Amatic SC', cursive;
+/* fonts: font size*/;
+    font-size: 40px;
+/*text allign*/
+    text-align: center;
+  
+}
+h2{
+    color: rgb(73, 66, 66);
+    font-family: '', Arial, Helvetica, sans-serif;
+    color:rgb(74, 103, 160);
+   
+/*text decoration*/
+   text-decoration: underline;
+
+}
+h3{
+    color: rgb(73, 66, 66);
+    font-family: '', Arial, Helvetica, sans-serif;
+}
+
+
+li{
+    color: rgb(78, 130, 146);
+    font-family: candara;
+    font-size: 17px;
+/*fonts: font weight;*/
+   font-weight: bold;
+
+
+}
+
+p{
+    color: rgb(73, 66, 66);
+    font-family: '', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+/*fonts: font height, usually 1.5-2, depends on font*/
+font-height:1.5; 
+font-weight: bold;
+}
+/*background color*/
+/* body{
+background: peachpuff;
+}*/
+/*image as background*/
+body{
+    background-color: whitesmoke;
+background-repeat: no-repeat;
+background-size: cover;
+
+}    
+
+.you{
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
